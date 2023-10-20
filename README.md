@@ -1,6 +1,6 @@
 # webdav
 
-局域网传输
+WebDAV 传输
 
 附带一个浏览器前端页面
 
@@ -11,12 +11,8 @@
 
 ## 开源地址
 
-[https://github.com/nibazshab/webdav](https://github.com/nibazshab/webdav)
-
-## 维护者
-
-[@NibaZShab](https://github.com/nibazshab)
+https://github.com/nibazshab/webdav
 
 ## 使用许可
 
-[MIT](LICENSE) © ZShab Niba
+MIT © ZShab Niba
