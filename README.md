@@ -20,6 +20,11 @@ go get -d -v ./...
 CGO_ENABLED=0 go build -ldflags="-s -w"
 ```
 
+## 计划
+
+- [ ] 更改前端样式
+- [ ] 记录日志
+
 ## 开源地址
 
 https://github.com/nibazshab/webdav
