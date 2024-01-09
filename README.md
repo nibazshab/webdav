@@ -2,7 +2,7 @@
 
 WebDAV 传输
 
-附带一个浏览器前端页面
+残次品，仅支持从网页打开
 
 ## 使用说明
 
@@ -11,7 +11,7 @@ WebDAV 传输
 1. 编译 main.go
 2. 附带目录参数运行程序 `./webdav .`
 
-__编译步骤：__
+__编译步骤__
 
 ```sh
 git clone https://github.com/nibazshab/webdav.git
@@ -24,11 +24,12 @@ CGO_ENABLED=0 go build -ldflags="-s -w"
 
 - [ ] 更改前端样式
 - [ ] 记录日志
+- [ ] 支持连接工具
 
 ## 开源地址
 
 https://github.com/nibazshab/webdav
 
-## 使用许可
+## 许可证
 
 MIT © ZShab Niba
