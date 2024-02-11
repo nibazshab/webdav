@@ -55,5 +55,9 @@ func main() {
 }
 
 func logRecord(r *http.Request) {
-    log.Print(r.RemoteAddr + " - " + r.Method + " - " + r.URL.String() + " - " + r.Header.Get("user-agent"))
+    xff := r.Header.Get("X-Forwarded-For")
+    if xff == "" {
+        xff = r.RemoteAddr
+    }
+    log.Print(xff + " - " + r.Method + " - " + r.URL.String() + " - " + r.Header.Get("user-agent"))
 }
